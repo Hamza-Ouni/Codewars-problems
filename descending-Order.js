@@ -11,7 +11,7 @@
 const descendingOrder = (n) => {
   debugger;
   let array = [];
-  num = n.toString();
+  let num = n.toString();
   [...num].forEach((element) => array.push(parseInt(element)));
   return parseInt(
     array
